@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Development 1</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="icon" href="/images/icon.png" type="image/png">
+</head>
+
+<body class="font-['Courier_New',Courier,monospace] p-8 bg-gray-800 text-white">
+	<header class="flex justify-between mb-8">
+		<div class="w-0 mt-1.5">
+			<a href="../" class="bg-gray-500 text-white py-2 px-4 rounded">
+				back
+			</a>
+		</div>
+		<h1 class="text-3xl text-center">
+			< Sandbox />
+		</h1>
+		<div><!-- placeholder to keep title at the center --></div>
+	</header>
+	<main class="space-y-8 pb-52">
+		<div>
+			<h1 id="title" class="text-2xl">Event Listeners</h1>
+			<p class="italic">
+				check code in <code>&lt;script&gt;</code> at "JavaScript DOM Methods & Event Listeners"
+			</p>
+		</div>
+		<div class="flex gap-4">
+			<button id="button1-1" class="bg-blue-500 py-2 px-4 rounded">log by id using getElementById</button>
+			<button id="button1-2" class="bg-pink-500 py-2 px-4 rounded">log by id using querySelector</button>
+			<button class="button2 bg-orange-500 py-2 px-4 rounded">log by class</button>
+			<span class="py-2 px-4 rounded">log by element</span>
+			<button id="button3" class="bg-red-500 py-2 px-4 rounded">log title</button>
+		</div>
+		<hr>
+		<div>
+			<h1 class="text-2xl">Properties</h1>
+			<p class="italic">
+				check code in <code>&lt;script&gt;</code> at "JavaScript DOM Properties"
+			</p>
+		</div>
+		<div class="flex gap-4">
+			<div>
+				<button id="prop-1" class="bg-gray-500 py-2 px-4 rounded w-16">off</button>
+			</div>
+			<div>
+				<button id='prop-2' class="bg-purple-500 py-2 px-4 rounded">Show Students</button>
+				<div id="student-list" class="mt-4"></div>
+			</div>
+			<div class="flex flex-col gap-4 items">
+				<input id="prop-3" type="text" class="p-2 rounded text-black" placeholder="Type something">
+				<button class="bg-teal-500 py-2 px-4 rounded w-24"
+					onclick="alert(document.getElementById('prop-3').value)">submit</button>
+			</div>
+		</div>
+	</main>
+</body>
+
+<script>
+	// JavaScript
+	let name = 'Lecarre Gavini' // mutable (changeable)
+	const age = 21 // immutable (unchangeable)
+	// name (is a) string
+	// age (is a) number
+	const gwapo = true // is a boolean
+	const attributes = ['wise', 'good-looking', 'humble'] // is an array
+	const details = { // is an object
+		id: '2025USC',
+		year: 2025,
+		school: 'USC',
+	}
+
+	// functions
+	function greet() {
+		console.log(`Hello! my name is ${name}. I am ${age} years old.`)
+	}
+
+	// functions with parameters
+	function reply(recipient) {
+		console.log(`Nice meeting you, ${recipient}!`)
+	}
+
+	// conditions
+	function negotiate(price) {
+		if (price < 100) {
+			console.log('Geh!')
+		} else {
+			console.log('Grabe siya...')
+		}
+	}
+
+	// loops
+	function introduce() {
+		for (let i = 0; i < attributes.length; i++) {
+			console.log(`I am ${attributes[i]}`)
+		}
+	}
+
+
+	// JavaScript DOM Methods & Event Listeners
+	{
+		document.getElementById('button1-1').addEventListener('click', () =>
+			console.log('button `log by id using getElementById` has been clicked')
+		);
+
+		document.querySelector('#button1-2').addEventListener('click', () =>
+			console.log('button `log by id using querySelector` has been clicked')
+		);
+
+		document.querySelector('.button2').addEventListener('click', () =>
+			console.log('button `log by class` has been clicked')
+		);
+
+		document.querySelector('span').addEventListener('click', () =>
+			console.log('button `log by element` has been clicked')
+		);
+
+		document.getElementById('button3').addEventListener('click', () =>
+			console.log(document.getElementById('title').innerText)
+		);
+	}
+
+	// JavaScript DOM Properties
+	{
+		document.getElementById('prop-1').addEventListener('click', () => {
+			const prop1 = document.getElementById('prop-1')
+			if (prop1.innerText == 'off') {
+				prop1.innerText = 'on'
+				prop1.classList.add('bg-green-500')
+				prop1.classList.remove('bg-gray-500')
+			} else {
+				prop1.innerText = 'off'
+				prop1.classList.add('bg-gray-500')
+				prop1.classList.remove('bg-green-500')
+			}
+		});
+
+		document.getElementById('prop-2').addEventListener('click', () => {
+			const prop2 = document.getElementById('prop-2')
+			if (prop2.innerText == 'Show Students') {
+				prop2.innerText = 'Hide Students'
+				showStudents()
+			} else {
+				prop2.innerText = 'Show Students'
+				const studentList = document.getElementById('student-list')
+				studentList.innerHTML = ''
+			}
+		});
+
+		const showStudents = () => {
+			const studentList = document.getElementById('student-list')
+			const ul = document.createElement("ul");
+			ul.classList.add("list-disc", "list-inside");
+			const students = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
+			students.forEach(student => {
+				const li = document.createElement("li");
+				li.innerText = student;
+				ul.appendChild(li);
+			});
+			studentList.appendChild(ul);
+		}
+
+
+	}
+</script>
+
+</html>
