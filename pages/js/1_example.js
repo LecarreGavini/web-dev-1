@@ -74,6 +74,9 @@ const searchStudent = (id, name, age) => {
 		name: 'John',
 		age: 30,
 	}
+	// if (id == d.id && name == d.name && age == d.age) {
+	// 	return d
+	// }
 	if (id == d.id || name == d.name || age == d.age) {
 		return d
 	}

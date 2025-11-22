@@ -6,18 +6,21 @@ document
 		console.log('button `log by id using getElementById` has been clicked'),
 	)
 
+// query id
 document
 	.querySelector('#button1-2')
 	.addEventListener('click', () =>
 		console.log('button `log by id using querySelector` has been clicked'),
 	)
 
+// query class
 document
 	.querySelector('.button2')
 	.addEventListener('click', () =>
 		console.log('button `log by class` has been clicked'),
 	)
 
+// query html tag / element
 document
 	.querySelector('span')
 	.addEventListener('click', () =>
