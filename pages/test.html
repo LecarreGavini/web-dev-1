@@ -7,6 +7,9 @@
 	<title>Web Development 1</title>
 	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="icon" href="/images/icon.png" type="image/png">
+	<script src="js/1_example.js"></script>
+	<script src="js/2_dom.js"></script>
+	<script src="js/3_properties.js"></script>
 </head>
 
 <body class="font-['Courier_New',Courier,monospace] p-8 bg-gray-800 text-white">
@@ -58,113 +61,5 @@
 		</div>
 	</main>
 </body>
-
-<script>
-	// JavaScript
-	let name = 'Lecarre Gavini' // mutable (changeable)
-	const age = 21 // immutable (unchangeable)
-	// name (is a) string
-	// age (is a) number
-	const gwapo = true // is a boolean
-	const attributes = ['wise', 'good-looking', 'humble'] // is an array
-	const details = { // is an object
-		id: '2025USC',
-		year: 2025,
-		school: 'USC',
-	}
-
-	// functions
-	function greet() {
-		console.log(`Hello! my name is ${name}. I am ${age} years old.`)
-	}
-
-	// functions with parameters
-	function reply(recipient) {
-		console.log(`Nice meeting you, ${recipient}!`)
-	}
-
-	// conditions
-	function negotiate(price) {
-		if (price < 100) {
-			console.log('Geh!')
-		} else {
-			console.log('Grabe siya...')
-		}
-	}
-
-	// loops
-	function introduce() {
-		for (let i = 0; i < attributes.length; i++) {
-			console.log(`I am ${attributes[i]}`)
-		}
-	}
-
-
-	// JavaScript DOM Methods & Event Listeners
-	{
-		document.getElementById('button1-1').addEventListener('click', () =>
-			console.log('button `log by id using getElementById` has been clicked')
-		);
-
-		document.querySelector('#button1-2').addEventListener('click', () =>
-			console.log('button `log by id using querySelector` has been clicked')
-		);
-
-		document.querySelector('.button2').addEventListener('click', () =>
-			console.log('button `log by class` has been clicked')
-		);
-
-		document.querySelector('span').addEventListener('click', () =>
-			console.log('button `log by element` has been clicked')
-		);
-
-		document.getElementById('button3').addEventListener('click', () =>
-			console.log(document.getElementById('title').innerText)
-		);
-	}
-
-	// JavaScript DOM Properties
-	{
-		document.getElementById('prop-1').addEventListener('click', () => {
-			const prop1 = document.getElementById('prop-1')
-			if (prop1.innerText == 'off') {
-				prop1.innerText = 'on'
-				prop1.classList.add('bg-green-500')
-				prop1.classList.remove('bg-gray-500')
-			} else {
-				prop1.innerText = 'off'
-				prop1.classList.add('bg-gray-500')
-				prop1.classList.remove('bg-green-500')
-			}
-		});
-
-		document.getElementById('prop-2').addEventListener('click', () => {
-			const prop2 = document.getElementById('prop-2')
-			if (prop2.innerText == 'Show Students') {
-				prop2.innerText = 'Hide Students'
-				showStudents()
-			} else {
-				prop2.innerText = 'Show Students'
-				const studentList = document.getElementById('student-list')
-				studentList.innerHTML = ''
-			}
-		});
-
-		const showStudents = () => {
-			const studentList = document.getElementById('student-list')
-			const ul = document.createElement("ul");
-			ul.classList.add("list-disc", "list-inside");
-			const students = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
-			students.forEach(student => {
-				const li = document.createElement("li");
-				li.innerText = student;
-				ul.appendChild(li);
-			});
-			studentList.appendChild(ul);
-		}
-
-
-	}
-</script>
 
 </html>
