@@ -25,17 +25,6 @@ function calculate(a, b, operator) {
 	return a + b
 }
 
-// * Condition
-//     * If else
-//     * switch
-//     * Ternary
-// 		*
-
-// Loops
-//   * For
-//   * While
-//   * For of
-
 // functions
 function sum(a, b) {
 	return a + b
@@ -61,6 +50,7 @@ function negotiateIfStatements(price) {
 	}
 }
 
+// switch statement
 function negotiateSwitch(price) {
 	switch (price) {
 		case 100:
@@ -72,6 +62,7 @@ function negotiateSwitch(price) {
 	}
 }
 
+// ternary statement
 function negotiateTernary(price) {
 	// * ternary operator (condition ? true : false)
 	return price < 150 ? 'Bargain!' : 'Too expensive!'
@@ -94,9 +85,16 @@ const gender = g => {
 	if (g != 'm') return 'female' // ! =
 }
 
-// loops
+// Loops
+//   For
+//   While
+//   For of
+
 function introduce() {
 	for (let i = 0; i < attributes.length; i++) {
 		console.log(`I am ${attributes[i]}`)
 	}
 }
+
+// arrays
+const brands = ['dell', 'hp', 'lenovo']
