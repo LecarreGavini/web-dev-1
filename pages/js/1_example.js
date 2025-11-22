@@ -50,25 +50,29 @@ function reply(recipient) {
 	console.log(`Nice meeting you, ${recipient}!`)
 }
 
-// conditions
-function negotiate(price) {
-	// * if statements
-	// if (price < 100) {
-	// 	console.log('Geh!')
-	// } else if (price == 200) {
-	// 	console.log('Ambot!')
-	// } else {
-	// 	console.log('Grabe siya...')
-	// }
-	// * switch statements
-	// switch (price) {
-	// 	case 100:
-	// 		return 'Cheap!'
-	// 	case 200:
-	// 		return 'Okay lang!'
-	// 	default:
-	// 		return 'Mahal'
-	// }
+// if statement
+function negotiateIfStatements(price) {
+	if (price < 100) {
+		console.log('Geh!')
+	} else if (price == 200) {
+		console.log('Ambot!')
+	} else {
+		console.log('Grabe siya...')
+	}
+}
+
+function negotiateSwitch(price) {
+	switch (price) {
+		case 100:
+			return 'Cheap!'
+		case 200:
+			return 'Okay lang!'
+		default:
+			return 'Mahal'
+	}
+}
+
+function negotiateTernary(price) {
 	// * ternary operator (condition ? true : false)
 	return price < 150 ? 'Bargain!' : 'Too expensive!'
 }
