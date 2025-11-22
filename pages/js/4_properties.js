@@ -50,7 +50,7 @@ document.getElementById('prop-3-btn').addEventListener('click', () => {
 	}
 })
 
-document.getElementById('prop-3-input').addEventListener('change', e => {
+document.getElementById('prop-3-input').addEventListener('keydown', e => {
 	const input = e.target
 	const error = document.getElementById('prop-3-input-error')
 	input.classList.remove('border-red-500', 'border-2')
