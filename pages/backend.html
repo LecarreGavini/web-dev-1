@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Development 1</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="icon" href="/images/icon.png" type="image/png">
+</head>
+
+<body class="font-['Courier_New',Courier,monospace] p-8 bg-gray-800 text-white">
+	<header class="flex justify-between mb-8">
+		<div class="w-0 mt-1.5">
+			<a href="../" class="bg-gray-500 text-white py-2 px-4 rounded">
+				back
+			</a>
+		</div>
+		<h1 class="text-3xl text-center">
+			< Backend />
+		</h1>
+		<div><!-- placeholder to keep title at the center --></div>
+	</header>
+	<main class="space-y-8">
+		<ul class="list-disc list-inside space-y-2">
+			<li>Install NodeJS here at <span class="underline">https://nodejs.org/en/download</span></li>
+			<li>Install Express using <span class="underline">npm i express</span></li>
+			<li>Install Cors using <span class="underline">npm i cors</span></li>
+			<li>Install Nodemon using <span class="underline">npm i -D nodemon</span></li>
+			<li>Add start script in package.json</li>
+			<pre class="bg-gray-900 border border-gray-600 rounded-lg p-4"><code class="text-green-400">"scripts": {
+	"start": "nodemon server.js"
+}</code></pre>
+			<li>Build API Endpoints</li>
+			<pre class="bg-gray-900 border border-gray-600 rounded-lg p-4"><code class="text-green-400">const express = require('express')
+const cors = require('cors')
+const app = express()
+const port = 3000
+
+app.use(cors())
+app.use(express.json())
+
+app.get('/', (req, res) => {
+	res.send('Hello World!')
+})
+
+app.post('/', (req, res) => {
+	res.send('post request')
+})
+</code></pre>
+			<li>Test GET by going to <span class="underline">http://localhost:3000/</span></li>
+			<li>Test POST by creating button that will trigger a post request</li>
+			<pre class="bg-gray-900 border border-gray-600 rounded-lg p-4"><code class="text-green-400">const post = () => {
+	fetch('http://localhost:3000/', {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({})
+	})
+		.then(res => res.json())
+		.then((data) => console.log(data))
+}</code></pre>
+		</ul>
+		<button id='btn-1' class="px-4 py-2 bg-gray-200 text-black rounded-xl">Post</button>
+	</main>
+
+	<script>
+		document.getElementById('btn-1').addEventListener('click', () => {
+			post()
+		})
+
+		const post = () => {
+			fetch('http://localhost:3000', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					id: 123,
+				})
+			}).then((response) => {
+				return response.json()
+			}).then((json) => {
+				console.log(json);
+			})
+		}
+	</script>
+</body>
+
+</html>
