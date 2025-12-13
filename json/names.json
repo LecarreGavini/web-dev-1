@@ -1,0 +1,802 @@
+[
+	{
+		"id": "USC001",
+		"first": "Bobby",
+		"middle": "Zamora",
+		"last": "Messi",
+		"email": "bobby.messi@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC002",
+		"first": "Luke",
+		"middle": "Zamora",
+		"last": "Zamora",
+		"email": "luke.zamora@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC003",
+		"first": "Luke",
+		"middle": "Messi",
+		"last": "Messi",
+		"email": "luke.messi@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC004",
+		"first": "Bobby",
+		"middle": "Dill",
+		"last": "Messi",
+		"email": "bobby.messi@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC005",
+		"first": "John",
+		"middle": "Argon",
+		"last": "Sampa",
+		"email": "john.sampa@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC006",
+		"first": "Bobby",
+		"middle": "Maki",
+		"last": "Sampa",
+		"email": "bobby.sampa@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC007",
+		"first": "Sushi",
+		"middle": "Argon",
+		"last": "Gavini",
+		"email": "sushi.gavini@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC008",
+		"first": "Lecarre",
+		"middle": "Dill",
+		"last": "Maki",
+		"email": "lecarre.maki@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC009",
+		"first": "Bobby",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "bobby.sampa@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC010",
+		"first": "Mark",
+		"middle": "Argon",
+		"last": "Alonzo",
+		"email": "mark.alonzo@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC011",
+		"first": "Billy",
+		"middle": "Argon",
+		"last": "Alonzo",
+		"email": "billy.alonzo@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC012",
+		"first": "Mark",
+		"middle": "Zamora",
+		"last": "Sampa",
+		"email": "mark.sampa@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC013",
+		"first": "Sushi",
+		"middle": "Dill",
+		"last": "Messi",
+		"email": "sushi.messi@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC014",
+		"first": "Sushi",
+		"middle": "Messi",
+		"last": "Maki",
+		"email": "sushi.maki@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC015",
+		"first": "John",
+		"middle": "Zamora",
+		"last": "Gavini",
+		"email": "john.gavini@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC016",
+		"first": "Mark",
+		"middle": "Maki",
+		"last": "Gavini",
+		"email": "mark.gavini@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC017",
+		"first": "John",
+		"middle": "Messi",
+		"last": "Argon",
+		"email": "john.argon@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC018",
+		"first": "John",
+		"middle": "Messi",
+		"last": "Zamora",
+		"email": "john.zamora@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC019",
+		"first": "Lecarre",
+		"middle": "Maki",
+		"last": "Sampa",
+		"email": "lecarre.sampa@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC020",
+		"first": "Luke",
+		"middle": "Maki",
+		"last": "Zamora",
+		"email": "luke.zamora@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC021",
+		"first": "John",
+		"middle": "Sampa",
+		"last": "Argon",
+		"email": "john.argon@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC022",
+		"first": "Mark",
+		"middle": "Argon",
+		"last": "Zamora",
+		"email": "mark.zamora@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC023",
+		"first": "John",
+		"middle": "Argon",
+		"last": "Maki",
+		"email": "john.maki@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC024",
+		"first": "Sushi",
+		"middle": "Zamora",
+		"last": "Maki",
+		"email": "sushi.maki@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC025",
+		"first": "Luke",
+		"middle": "Argon",
+		"last": "Gavini",
+		"email": "luke.gavini@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC026",
+		"first": "Billy",
+		"middle": "Maki",
+		"last": "Dill",
+		"email": "billy.dill@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC027",
+		"first": "John",
+		"middle": "Zamora",
+		"last": "Messi",
+		"email": "john.messi@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC028",
+		"first": "Luke",
+		"middle": "Maki",
+		"last": "Maki",
+		"email": "luke.maki@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC029",
+		"first": "Billy",
+		"middle": "Messi",
+		"last": "Dill",
+		"email": "billy.dill@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC030",
+		"first": "Luke",
+		"middle": "Zamora",
+		"last": "Argon",
+		"email": "luke.argon@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC031",
+		"first": "John",
+		"middle": "Messi",
+		"last": "Maki",
+		"email": "john.maki@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC032",
+		"first": "John",
+		"middle": "Zamora",
+		"last": "Maki",
+		"email": "john.maki@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC033",
+		"first": "Bobby",
+		"middle": "Maki",
+		"last": "Messi",
+		"email": "bobby.messi@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC034",
+		"first": "Sushi",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "sushi.sampa@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC035",
+		"first": "Lecarre",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "lecarre.sampa@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC036",
+		"first": "John",
+		"middle": "Argon",
+		"last": "Alonzo",
+		"email": "john.alonzo@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC037",
+		"first": "Billy",
+		"middle": "Sampa",
+		"last": "Zamora",
+		"email": "billy.zamora@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC038",
+		"first": "Matthew",
+		"middle": "Alonzo",
+		"last": "Messi",
+		"email": "matthew.messi@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC039",
+		"first": "Matthew",
+		"middle": "Argon",
+		"last": "Argon",
+		"email": "matthew.argon@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC040",
+		"first": "Luke",
+		"middle": "Sampa",
+		"last": "Gavini",
+		"email": "luke.gavini@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC041",
+		"first": "Mark",
+		"middle": "Argon",
+		"last": "Messi",
+		"email": "mark.messi@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC042",
+		"first": "Lecarre",
+		"middle": "Maki",
+		"last": "Sampa",
+		"email": "lecarre.sampa@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC043",
+		"first": "Billy",
+		"middle": "Zamora",
+		"last": "Alonzo",
+		"email": "billy.alonzo@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC044",
+		"first": "Matthew",
+		"middle": "Argon",
+		"last": "Messi",
+		"email": "matthew.messi@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC045",
+		"first": "John",
+		"middle": "Maki",
+		"last": "Argon",
+		"email": "john.argon@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC046",
+		"first": "Sushi",
+		"middle": "Zamora",
+		"last": "Argon",
+		"email": "sushi.argon@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC047",
+		"first": "Sushi",
+		"middle": "Gavini",
+		"last": "Alonzo",
+		"email": "sushi.alonzo@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC048",
+		"first": "Bobby",
+		"middle": "Alonzo",
+		"last": "Alonzo",
+		"email": "bobby.alonzo@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC049",
+		"first": "Matthew",
+		"middle": "Zamora",
+		"last": "Dill",
+		"email": "matthew.dill@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC050",
+		"first": "John",
+		"middle": "Messi",
+		"last": "Zamora",
+		"email": "john.zamora@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC051",
+		"first": "Matthew",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "matthew.sampa@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC052",
+		"first": "Billy",
+		"middle": "Gavini",
+		"last": "Dill",
+		"email": "billy.dill@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC053",
+		"first": "Lecarre",
+		"middle": "Argon",
+		"last": "Maki",
+		"email": "lecarre.maki@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC054",
+		"first": "Luke",
+		"middle": "Maki",
+		"last": "Zamora",
+		"email": "luke.zamora@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC055",
+		"first": "Sushi",
+		"middle": "Messi",
+		"last": "Messi",
+		"email": "sushi.messi@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC056",
+		"first": "Billy",
+		"middle": "Messi",
+		"last": "Maki",
+		"email": "billy.maki@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC057",
+		"first": "Billy",
+		"middle": "Sampa",
+		"last": "Alonzo",
+		"email": "billy.alonzo@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC058",
+		"first": "Billy",
+		"middle": "Gavini",
+		"last": "Alonzo",
+		"email": "billy.alonzo@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC059",
+		"first": "Jason",
+		"middle": "Sampa",
+		"last": "Sampa",
+		"email": "jason.sampa@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC060",
+		"first": "Billy",
+		"middle": "Argon",
+		"last": "Messi",
+		"email": "billy.messi@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC061",
+		"first": "Luke",
+		"middle": "Sampa",
+		"last": "Gavini",
+		"email": "luke.gavini@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC062",
+		"first": "Sushi",
+		"middle": "Maki",
+		"last": "Alonzo",
+		"email": "sushi.alonzo@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC063",
+		"first": "Lecarre",
+		"middle": "Argon",
+		"last": "Zamora",
+		"email": "lecarre.zamora@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC064",
+		"first": "Jason",
+		"middle": "Messi",
+		"last": "Argon",
+		"email": "jason.argon@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC065",
+		"first": "Matthew",
+		"middle": "Messi",
+		"last": "Sampa",
+		"email": "matthew.sampa@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC066",
+		"first": "Jason",
+		"middle": "Argon",
+		"last": "Sampa",
+		"email": "jason.sampa@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC067",
+		"first": "John",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "john.sampa@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC068",
+		"first": "Lecarre",
+		"middle": "Alonzo",
+		"last": "Maki",
+		"email": "lecarre.maki@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC069",
+		"first": "Jason",
+		"middle": "Gavini",
+		"last": "Alonzo",
+		"email": "jason.alonzo@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC070",
+		"first": "Billy",
+		"middle": "Alonzo",
+		"last": "Maki",
+		"email": "billy.maki@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC071",
+		"first": "Bobby",
+		"middle": "Maki",
+		"last": "Gavini",
+		"email": "bobby.gavini@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC072",
+		"first": "John",
+		"middle": "Gavini",
+		"last": "Argon",
+		"email": "john.argon@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC073",
+		"first": "Jason",
+		"middle": "Argon",
+		"last": "Maki",
+		"email": "jason.maki@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC074",
+		"first": "Sushi",
+		"middle": "Argon",
+		"last": "Alonzo",
+		"email": "sushi.alonzo@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC075",
+		"first": "Bobby",
+		"middle": "Alonzo",
+		"last": "Argon",
+		"email": "bobby.argon@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC076",
+		"first": "Matthew",
+		"middle": "Maki",
+		"last": "Maki",
+		"email": "matthew.maki@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC077",
+		"first": "Jason",
+		"middle": "Messi",
+		"last": "Zamora",
+		"email": "jason.zamora@usc.edu.ph",
+		"age": 17
+	},
+	{
+		"id": "USC078",
+		"first": "Sushi",
+		"middle": "Dill",
+		"last": "Maki",
+		"email": "sushi.maki@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC079",
+		"first": "Lecarre",
+		"middle": "Maki",
+		"last": "Dill",
+		"email": "lecarre.dill@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC080",
+		"first": "Billy",
+		"middle": "Maki",
+		"last": "Zamora",
+		"email": "billy.zamora@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC081",
+		"first": "Bobby",
+		"middle": "Sampa",
+		"last": "Gavini",
+		"email": "bobby.gavini@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC082",
+		"first": "Sushi",
+		"middle": "Alonzo",
+		"last": "Dill",
+		"email": "sushi.dill@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC083",
+		"first": "Mark",
+		"middle": "Alonzo",
+		"last": "Sampa",
+		"email": "mark.sampa@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC084",
+		"first": "Billy",
+		"middle": "Messi",
+		"last": "Gavini",
+		"email": "billy.gavini@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC085",
+		"first": "Billy",
+		"middle": "Maki",
+		"last": "Alonzo",
+		"email": "billy.alonzo@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC086",
+		"first": "Matthew",
+		"middle": "Zamora",
+		"last": "Sampa",
+		"email": "matthew.sampa@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC087",
+		"first": "Matthew",
+		"middle": "Messi",
+		"last": "Messi",
+		"email": "matthew.messi@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC088",
+		"first": "Luke",
+		"middle": "Gavini",
+		"last": "Dill",
+		"email": "luke.dill@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC089",
+		"first": "Sushi",
+		"middle": "Sampa",
+		"last": "Sampa",
+		"email": "sushi.sampa@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC090",
+		"first": "Sushi",
+		"middle": "Dill",
+		"last": "Alonzo",
+		"email": "sushi.alonzo@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC091",
+		"first": "Jason",
+		"middle": "Alonzo",
+		"last": "Gavini",
+		"email": "jason.gavini@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC092",
+		"first": "Bobby",
+		"middle": "Argon",
+		"last": "Messi",
+		"email": "bobby.messi@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC093",
+		"first": "Billy",
+		"middle": "Sampa",
+		"last": "Argon",
+		"email": "billy.argon@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC094",
+		"first": "Mark",
+		"middle": "Zamora",
+		"last": "Messi",
+		"email": "mark.messi@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC095",
+		"first": "Bobby",
+		"middle": "Maki",
+		"last": "Messi",
+		"email": "bobby.messi@usc.edu.ph",
+		"age": 19
+	},
+	{
+		"id": "USC096",
+		"first": "Bobby",
+		"middle": "Zamora",
+		"last": "Gavini",
+		"email": "bobby.gavini@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC097",
+		"first": "Matthew",
+		"middle": "Zamora",
+		"last": "Argon",
+		"email": "matthew.argon@usc.edu.ph",
+		"age": 20
+	},
+	{
+		"id": "USC098",
+		"first": "Lecarre",
+		"middle": "Sampa",
+		"last": "Argon",
+		"email": "lecarre.argon@usc.edu.ph",
+		"age": 18
+	},
+	{
+		"id": "USC099",
+		"first": "Luke",
+		"middle": "Messi",
+		"last": "Zamora",
+		"email": "luke.zamora@usc.edu.ph",
+		"age": 21
+	},
+	{
+		"id": "USC100",
+		"first": "John",
+		"middle": "Maki",
+		"last": "Dill",
+		"email": "john.dill@usc.edu.ph",
+		"age": 18
+	}
+]
